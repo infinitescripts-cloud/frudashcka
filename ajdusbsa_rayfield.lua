@@ -1,4 +1,3 @@
-
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
 
 -- Rayfield compatibility layer for the existing feature code.
