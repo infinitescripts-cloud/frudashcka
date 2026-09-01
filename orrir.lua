@@ -1,6 +1,3 @@
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua'))()
-print("ran ac byp")
 if not cloneref then cloneref = function(x) return x end end
 if not gethui then gethui = function() return game:GetService("CoreGui") end end
 if not writefile then writefile = function() end end
