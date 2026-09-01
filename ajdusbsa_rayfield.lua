@@ -1,14 +1,3 @@
-if not gethui then gethui = function() return game:GetService("CoreGui") end end
-if not writefile then writefile = function() end end
-if not readfile then readfile = function() return "" end end
-if not makefolder then makefolder = function() end end
-if not isfile then isfile = function() return false end end
-if not isfolder then isfolder = function() return false end end
-if not getcustomasset then getcustomasset = function() return "" end end
-if not isrbxactive then isrbxactive = function() return true end end
-if not protect_gui then protect_gui = function() end end
-if not get_hidden_gui then get_hidden_gui = gethui end
-if not getgenv then getgenv = function() return getfenv(0) end end
 
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
 
